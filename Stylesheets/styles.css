@@ -1,15 +1,21 @@
 body {
-	background-color: #e6ffcc;
+	background-image: url("../forest4.png");
+	background-position: center; /* Center the image */
+	background-repeat: no-repeat; /* Do not repeat the image */
+	background-size: cover; /* Resize the background image to cover the entire container */
 	margin-top: 8px;
-	font-family: Georgia, serif;
+	font-family: Comic Sans MS, Comic Sans, cursive;
 	margin: 0;
 	padding: 0;
+	
 }
 
 h1 {
 	text-align: center;
 	height: 40px;
-	margin-top: 20px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	color: #1a001a;
 }
 
 p {
@@ -21,21 +27,25 @@ p {
 	font-weight: bold;
 }
 
-.pushkin {
+.racoon {
 	display: block;
+	width:250px; 
+    height: 250px;
 	margin-left: auto;
 	margin-right: auto;
-	border: 8px inset #59b300;
-	border-radius: 12px;
-	box-shadow: 0 4px 8px 0 grey, 0 6px 20px 0 grey;
+	margin-bottom: 30px;
+	border: 1px solid #e6ffff;
+	box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+	
+	
+	
 }
-
 .nav-ul {
 	list-style-type: none;
 	margin: 0;
 	padding-left: 10px;
-	height: 40px;
-	background-color: #59b300;
+	height: 50px;
+	box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
 	display: flex;
 	justify-content: left;
 	align-items: center;
@@ -44,10 +54,10 @@ p {
 .nav-li {
 	display: block;
 	float: left;
-	background-color: lime;
 	padding: 11px 12px;
-	border: 4px solid black;
-	border-radius: 12px;
+	margin-left: 2px;
+	border-radius: 3px;
+	box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
 }
 
 .nav-li:hover {
@@ -57,9 +67,56 @@ p {
 .nav-a {
 	display: block;
 	text-decoration: none;
-	color: black;
+	color: #001a1a;
 	
 	
 }
 
+.description {
+	margin-bottom: 20px;
+	font-size: 20px;
+	color: #ccffff;
+	
+}
+
+
+
+article {
+	position: relative;
+	margin-left: 150px;
+	margin-right: 150px;
+	
+}
+
+.background {
+	position: relative;
+    background: rgba(255, 255, 255, 0.5);
+	border-radius: 8px;
+	
+  
+}
+
+.text-border{
+  text-align: justify;
+  border: solid 1px white;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  font-size: 20px;
+  border-radius: 8px;
+}
+
+
+	
+	
+.footer-line{
+	position: fixed;
+	bottom: 0;
+	display: block;
+	width: 100%;
+	height: 20px;
+	background-color: white;
+	opacity: .1;
+	border-top: solid 1px white;
+}
 
